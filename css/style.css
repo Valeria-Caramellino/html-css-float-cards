@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tilt Neon', cursive;
+}
+header{
+    width: 80%;
+    margin: 0 auto;
+}
+h1{
+    color: #e53170;
+}
+h1 , .lorem{
+    margin: 20px;
+    text-align: center;
+}
