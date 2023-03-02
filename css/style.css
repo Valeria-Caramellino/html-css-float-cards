@@ -4,14 +4,41 @@
     box-sizing: border-box;
     font-family: 'Tilt Neon', cursive;
 }
-header{
+#container{
     width: 80%;
     margin: 0 auto;
+}
+#container2{
+    width: 100%;
+    margin: 0 10%;
+
 }
 h1{
     color: #e53170;
 }
-h1 , .lorem{
-    margin: 20px;
+h1 , p.lorem{
+    margin: 10px;
     text-align: center;
+}
+.box{
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    background-color: black;
+    margin: 15px;
+}
+img{
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+}
+div.box  p , h4{
+    color: white;
+    padding: 5px;
+}
+div.box p{
+    font-size: 12px;
+}
+div.box p:last-child{
+    color: #2579ea;
 }
