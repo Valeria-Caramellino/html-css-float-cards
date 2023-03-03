@@ -5,20 +5,20 @@
     font-family: 'Tilt Neon', cursive;
 }
 #container{
-    width: 80%;
+    max-width: 80%;
     margin: 0 auto;
 }
-
 h1{
     color: #e53170;
 }
 h1 , p.lorem{
-    margin: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
 }
 .box{
     float: left;
-    width: calc(30% - 10px);
+    width: calc(100% / 3  - 40px);
     box-sizing: border-box;
     background-color: black;
     margin: 20px;   
